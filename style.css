@@ -246,7 +246,7 @@ body {background-color: rgb(31,31,31);}
 }
 
 shipping{
-    size: 20;
+    resize: 50;
   }
 
 /* media query */
@@ -318,7 +318,7 @@ shipping{
   }
 
   shipping{
-    size: 20;
+    resize: 20;
   }
 
 }
