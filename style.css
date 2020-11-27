@@ -252,6 +252,9 @@ shipping{
 /* media query */
 @media screen and (max-width: 480px) {
 
+  .description > a {
+    line-height: 50px;
+  }
   .header-flex > div p{
     margin: 10px;
     padding-top:10px;
