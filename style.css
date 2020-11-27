@@ -1,0 +1,63 @@
+body {background-color: rgb(31,31,31);}
+
+.spacer{
+  height: 250px;
+}
+.xbox-alignment{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.xbox {
+  width: 55%;
+  height: 50%;
+}
+
+a {
+  color: rgb(155, 240, 11);
+  text-shadow: 0 0 1px #9cf00b;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 8px;
+  text-decoration: none;
+}
+
+.description h1{ 
+  display:block;
+  opacity: 0;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.description:hover h1{ 
+  display: block;
+  opacity: 1;
+}
+
+.description h2{ 
+  font-size: 20px;
+  color: rgb(245, 245, 245);
+  display:block;
+  opacity: 0;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.description:hover h2{
+  color: rgb(245, 245, 245);
+  font-size: 20px;
+  display: block; 
+  opacity: 1;
+}
+
+.flex-container{
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.xbox-console{
+   width: 70%;
+  height: auto;
+}
