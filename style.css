@@ -84,7 +84,11 @@ body {background-color: rgb(31,31,31);}
 
 #bigtext{
   /*style="font-size:70px;line-height:70px;width:1260px;padding-top:30px;padding-bottom:30px;"*/
-  font-size:70px;line-height:70px;width:1260px;padding-top:30px;padding-bottom:30px;
+  font-size:70px;
+  line-height:70px;
+  width:1260px;
+  padding-top:30px;
+  padding-bottom:30px;
 }
 
 .header-flex > div p{
@@ -141,28 +145,62 @@ body {background-color: rgb(31,31,31);}
 .specs-flex{
   display: flex;
   justify-content: center;
-  flex-wrap:wrap;
+  align-content: center;
+  flex-wrap: wrap;
 
 }
 
 .specs-flex > div{
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgb(22,22,22);
   padding-bottom:30px;
   padding-top: 30px;
-  margin: 30px; 
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px; 
   text-align: center;
-  line-height: 5px;
-  color: rgb(245,245,245);
+
   /*text-shadow: 0 0 3px #9cf00b;*/
-  font-family: 'Red Hat Display', sans-serif;
-  font-weight: 400;
-  font-size: 30px;
+  
 }
 
 .xbox-specs{
+  max-width: 800px;
   width: 100%;
   height: auto;
 }
+
+.xbox-video{
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+}
+
+.specs-header{
+  color: rgb(155, 240, 11);
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.specs-text{
+  color: rgb(245,245,245);
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.specs-first-header{
+  color: rgb(155, 240, 11);
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  text-align: center;
+}
+
 .break{
   flex-basis: 100%;
 
