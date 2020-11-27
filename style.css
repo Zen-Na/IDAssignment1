@@ -93,14 +93,14 @@ body {background-color: rgb(31,31,31);}
 
 .header-flex > div p{
   background-color: rgba(0,0,0,0);
-  width: 150px;
-  margin: 1px;
-  padding-top:70px;
+
+  margin: 20px;
+  padding-top:50px;
   text-align: center;
   line-height: 30px;
   color: rgb(245,245,245);
   /*text-shadow: 0 0 3px #9cf00b;*/
-  font-family: 'Lato', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-weight: 400;
   font-size: 30px;
 }
@@ -232,8 +232,22 @@ body {background-color: rgb(31,31,31);}
   padding-top: 100px;
 }
 
-.separator{
-  background-color:rgb(20, 20, 20);
-  color: rgb(20, 20, 20);
-  line-height: 20px;
+
+
+
+.form-layout{
+  display: block;
+  text-align:left;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  width: 75%;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  body {background-color: rgb(31,31,31);}
 }

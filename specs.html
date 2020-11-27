@@ -11,43 +11,49 @@
   </head>
   <body>
     <header>
+      <!-- Flex table to contain header -->
       <div class="header-flex">
-      <div><img src="xbox-seriesxlogo-white.png"></div>
-      <div class="link"><a href="index.html"><p>HOME</p></a></div>
-      <div class="link"><a href="overview.html"><p>OVERVIEW</p></a></div>
-      <div><p style="color:rgb(155, 240, 11);transition: 0.4s;">SPECS</p></a></div>
-      <div class="link"><a href="order.html"><p>ORDER</p></a></div>
+        <div><img src="xbox-seriesxlogo-white.png"></div>
+        <div class="link"><a href="index.html"><p>HOME</p></a></div>
+        <div class="link"><a href="overview.html"><p>OVERVIEW</p></a></div>
+        <div><p style="color:rgb(155, 240, 11);transition: 0.4s;">SPECS</p></a></div>
+        <div class="link"><a href="order.html"><p>ORDER</p></a></div>
       </div>
     </header>
     <section>
-    <div class="specs-flex">
-      <div><p class="specs-first-header"><span style="color:rgb(245,245,245);">DESIGNED FROM THE </span>INSIDE OUT</p><video class="xbox-video" controls loop autoplay>
-        <source src="inside-out.mp4" type="video/mp4">
-        </video>
-        <p class="specs-text">The sleek monolithic design of Xbox Series X is the result of combining hardware and software innovations with intentional engineering to achieve the zenith of speed and performance.</p>
+      <!-- Flex table to contain specs information -->
+      <div class="specs-flex">
+        <!-- Content video -->
+        <div><p class="specs-first-header"><span style="color:rgb(245,245,245);">DESIGNED FROM THE </span>INSIDE OUT</p><video class="xbox-video" controls loop autoplay>
+          <source src="inside-out.mp4" type="video/mp4">
+          </video>
+          <p class="specs-text">The sleek monolithic design of Xbox Series X is the result of combining hardware and software innovations with intentional engineering to achieve the zenith of speed and performance.</p>
+        </div>
+        <!-- Split Motherboard -->
+        <div><img class="xbox-specs" src="split-motherboard.png" alt="Split Motherboard">
+          <p class="specs-header">SPLIT MOTHERBOARD</p>
+          <p class="specs-text">A split motherboard keeps the console’s internals evenly temperature controlled allowing for an even higher output of power.</p>
+        </div>
+        <!-- Heat Sink -->
+        <div><img class="xbox-specs" src="heat-sink.png" alt="Heat Sink">
+          <p class="specs-header">HEAT SINK</p>
+          <p class="specs-text">A heat-sink chassis is a unique, non-electronic component that merges parallel cooling with unique design to increase the reliability of performance.</p>
+        </div>
+        <!-- Vapour Chamber -->
+        <div><img class="xbox-specs" src="vapour-chamber.png" alt="Vapour Chamber">
+          <p class="specs-header">VAPOUR CHAMBER</p>
+          <p class="specs-text">The vapour chamber in the Xbox Series X enables an even spread of temperatures within the core.
+          </p>
+        </div>
+        <!-- Whisper Quiet Fan -->
+        <div><video class="xbox-video" controls loop autoplay>
+          <source src="whisper-quiet-fan.mp4" type="video/mp4">
+          </video>
+          <p class="specs-header">WHISPER-QUIET FAN</p>
+          <p class="specs-text">A vertical airflow system keeps the console running smoothly and cooling quietly.
+          </p>
+        </div>
       </div>
-      <div><img class="xbox-specs" src="split-motherboard.png" alt="Split Motherboard">
-        <p class="specs-header">SPLIT MOTHERBOARD</p>
-        <p class="specs-text">A split motherboard keeps the console’s internals evenly temperature controlled allowing for an even higher output of power.</p>
-      </div>
-      <div><img class="xbox-specs" src="heat-sink.png" alt="Heat Sink">
-        <p class="specs-header">HEAT SINK</p>
-        <p class="specs-text">A heat-sink chassis is a unique, non-electronic component that merges parallel cooling with unique design to increase the reliability of performance.</p>
-      </div>
-      <div><img class="xbox-specs" src="vapour-chamber.png" alt="Vapour Chamber">
-        <p class="specs-header">VAPOUR CHAMBER</p>
-        <p class="specs-text">The vapour chamber in the Xbox Series X enables an even spread of temperatures within the core.
-        </p>
-      </div>
-      <div><video class="xbox-video" controls loop autoplay>
-        <source src="whisper-quiet-fan.mp4" type="video/mp4">
-        </video>
-        <p class="specs-header">WHISPER-QUIET FAN</p>
-        <p class="specs-text">A vertical airflow system keeps the console running smoothly and cooling quietly.
-        </p>
-      </div>
-    </div>
     </section>
-    <h1 class="separator">-</h1>
   </body>
 </html>

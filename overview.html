@@ -11,35 +11,52 @@
   </head>
   <body>
     <header>
+      <!-- Flex table to contain header -->
       <div class="header-flex">
-      <div><img src="xbox-seriesxlogo-white.png"></div>
-      <div class="link"><a href="index.html"><p>HOME</p></a></div>
-      <div><p style="color:rgb(155, 240, 11);transition: 0.4s;">OVERVIEW</p></div>
-      <div class="link"><a href="specs.html"><p>SPECS</p></a></div>
-      <div class="link"><a href="order.html"><p>ORDER</p></a></div>
+        <!-- Header buttons, when hover over changes color. Page user is on is set to green -->
+        <div><img src="xbox-seriesxlogo-white.png"></div>
+        <div class="link"><a href="index.html"><p>HOME</p></a></div>
+        <div><p style="color:rgb(155, 240, 11);transition: 0.4s;">OVERVIEW</p></div>
+        <div class="link"><a href="specs.html"><p>SPECS</p></a></div>
+        <div class="link"><a href="order.html"><p>ORDER</p></a></div>
       </div>
     </header>
     <section>
+    <!-- Flex table to contain x-box image and text -->
     <div class="flex-container">
-    <img class="xbox-console" src="xbox-console.png">
-    <div class="console-header">
-      <p class="console-subtext">The All New</p>
-      <p>X-BOX</p>
-      <p>SERIES X</p>
-    </div>
-    </div>
-    </section>
-    <h1 class="separator">-</h1>
-    <section>
-      <div class="detail-flex">
-        <div><p>TRUE <span style="color:rgb(155, 240, 11);font-size:60px">4K</span></p><p><span style="color: rgb(225,225,225);font-size:15px; ">Gaming</span></p></div>
-        <div><p>UP TO <span style="color:rgb(155, 240, 11);font-size:60px"> 120</span></p><p><span style="color: rgb(225,225,225);font-size:15px; ">Frames Per Second</span></p></div>
-        <div><p><span style="color:rgb(155, 240, 11);font-size:60px">8K</span>  HDR</p><p><span style="color: rgb(225,225,225);font-size:15px; ">High Dynamic Range</span></p></div>
-        <div style="padding-top:20px; padding-bottom:29px;"><img src="xva.png" alt="Xbox Velocity Architecture"><p><span style="color: rgb(225,225,225);font-size:15px; ">Xbox Velocity Architecture</span></p></div>
-        <span class="break"></span>
-        <div id="bigtext">THE <span style="color:rgb(155, 240, 11);">FASTEST</span>, <span style="color:rgb(155, 240, 11);">MOST POWERFUL</span> XBOX EVER</div>
+      <img class="xbox-console" src="xbox-console.png">
+      <div class="console-header">
+        <p class="console-subtext">The All New</p>
+        <p>X-BOX</p>
+        <p>SERIES X</p>
+      </div>
+      </div>
+      </section>
+      <section>
+        <!-- Flex table to contain some overview information -->
+        <div class="detail-flex">
+          <!-- 4K Gaming -->
+          <div>
+            <!-- Span is used to do different font size and color within a single paragraph -->
+            <p>TRUE <span style="color:rgb(155, 240, 11);font-size:60px">4K</span></p><p><span style="color: rgb(225,225,225);font-size:15px; ">Gaming</span></p>
+          </div>
+          <!-- 120 FPS -->
+          <div>
+            <p>UP TO <span style="color:rgb(155, 240, 11);font-size:60px"> 120</span></p><p><span style="color: rgb(225,225,225);font-size:15px; ">Frames Per Second</span></p>
+          </div>
+          <!-- 8K HDR -->
+          <div>
+            <p><span style="color:rgb(155, 240, 11);font-size:60px">8K</span>  HDR</p><p><span style="color: rgb(225,225,225);font-size:15px; ">High Dynamic Range</span></p>
+            </div>
+          <!-- Xbox Velocity Architecture -->
+          <div style="padding-top:20px; padding-bottom:29px;">
+            <img src="xva.png" alt="Xbox Velocity Architecture"><p><span style="color: rgb(225,225,225);font-size:15px; ">Xbox Velocity Architecture</span></p>
+          </div>
+          <!-- Break class used to create a new row for the below text -->
+          <span class="break"></span>
+          <!-- BIG SHOW OFF MESSAGE -->
+          <div id="bigtext">THE <span style="color:rgb(155, 240, 11);">FASTEST</span>, <span style="color:rgb(155, 240, 11);">MOST POWERFUL</span> XBOX EVER</div>
       </div>
     </section>
-    <h1 class="separator">-</h1>
   </body>
 </html>
